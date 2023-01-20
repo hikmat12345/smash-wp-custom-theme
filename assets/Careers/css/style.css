@@ -1,0 +1,260 @@
+@font-face{
+    src: url('../../../font/league-spartan/static/LeagueSpartan-Regular.ttf');
+    font-family: Lspartan;
+}
+@font-face{
+    src: url('../../../font/FontsFree-Net-n1.ttf');
+    font-family: Nexa-Bold;
+}
+h3{
+    font-weight: 400px;
+}
+/* start header */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lspartan;
+}
+/* #header{
+    background-image: url('/assets/Careers/Image/mainsect.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 585px;
+} */
+
+#careers-main-section{
+    width: 100%;
+    height: 587px;
+    background-image: url('../Image/main-careers-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar-expand-lg{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: Lspartan;
+}
+.navbar-brand{
+    justify-content: start;
+    text-align: start;
+    float: inline-start;
+}
+.navbar-expand-lg a{
+    color: white;
+}
+.navbar-expand-lg img{
+    width: 287px;
+    height: 63px;
+}
+.navbar-collapse{
+    padding: 0px;
+    margin: 0px;
+}
+.btn2{
+    padding: 10px 15px 10px 15px;
+    background-color: #FF0303;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Lspartan';
+    font-style: normal;
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.header-nav-item a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+.nav-item a:hover{
+    color: #ED1B24;
+}
+
+.navbar-nav-ul{
+    text-align: center;
+    justify-content: center;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.3);
+}
+/* End career header */
+
+.main-left-img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+
+.careers-lab-rightimg{
+    width: 100%;
+    height: 630px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+/* career section */
+.career-lab-left-col{
+    padding-left: 105px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+.career-lab-left-col h2{
+    color: #ED1B24;
+}
+.careers-lab-left-col-image{
+    height: 630px;
+    background-color: black;
+    background-image: url('../Image/careers-lab-left-image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+.career-lab-button{
+    width: 90%;
+    margin-top: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 25px;
+    background-color: #ED1B24;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+ }
+ .career-lab-left-col h2{
+    font-weight: bold;
+ }
+ .career-top-section h5{
+    color: #ED1B24;
+ }
+ .accordion-button{
+    background-color: #e7e7e7;
+    border-radius: 5px !important;
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: black;
+ }
+ .accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+    display: none;
+}
+.accordion-button i{
+    margin-left: auto;
+}
+
+
+/*******************************
+* Does not work properly if "in" is added after "collapse".
+* Get free snippets on bootpen.com
+*******************************/
+.panel-group button{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    background-color: none;
+}
+
+.panel-group button:hover{
+    list-style: none;
+}
+.panel-group-button-para p{
+    text-align: start;
+}
+.panel-heading button{
+    text-align: left;
+    background-color: #F5F5F7;
+    font-size: 26px;
+}
+.panel-heading i{
+    margin-left: auto;
+    text-align: right;
+    justify-content: right;
+    float: right;
+    color: black !important;
+}
+
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+}
+
+.panel-title {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+
+/* ----- v CAN BE DELETED v ----- */
+
+.demo {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+/* footer bottom */
+
+#footer-bottom{
+    height: 130px;
+    width: 100%;
+    background-image: url('../Image/homefooter.png');
+    background-color: black;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-bottom-right{
+    margin-left: auto; 
+    padding-right: 10px;
+}
+/* End footer bottom */
+
+.footer-bottom-right a{
+    color: white;
+    text-decoration: none;
+}
+.footer-bottom-right a:hover{
+    color: #ED1B24;
+}

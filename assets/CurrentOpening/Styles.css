@@ -1,0 +1,286 @@
+@font-face{
+    src: url('../../../font/league-spartan/static/LeagueSpartan-Regular.ttf');
+    font-family: Lspartan;
+}
+@font-face{
+    src: url('../../../font/FontsFree-Net-n1.ttf');
+    font-family: Nexa-Bold;
+}
+h3{
+    font-weight: 400px;
+}
+/* start header */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lspartan;
+}
+/* #header{
+    background-image: url('/assets/Careers/Image/mainsect.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 585px;
+} */
+
+#smashlab-main-section{
+    width: 100%;
+    height: 587px;
+    background-image: url('./Images/mainsect.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar-expand-lg{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: Lspartan;
+}
+.navbar-brand{
+    justify-content: start;
+    text-align: start;
+    float: inline-start;
+}
+.navbar-expand-lg a{
+    color: white;
+}
+.navbar-expand-lg img{
+    width: 287px;
+    height: 63px;
+}
+.navbar-collapse{
+    padding: 0px;
+    margin: 0px;
+}
+.btn2{
+    padding: 10px 15px 10px 15px;
+    background-color: #FF0303;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Lspartan';
+    font-style: normal;
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.header-nav-item a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+.nav-item a:hover{
+    color: #ED1B24;
+}
+
+.navbar-nav-ul{
+    text-align: center;
+    justify-content: center;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.3);
+}
+/* End career header */
+
+
+/* Start Main-section */
+#currentopening-main-bg{
+    width: 100%;
+    height: 620px;
+    background-image: url('./Images/main-currentopening-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* End section */
+/* start currentopening-joinform  */
+
+#currentopening-joinform{
+
+}
+.careers-lab-left-col-image img{
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    position: relative;
+}
+.co-clubmash{
+    color: #ED1B24;
+    font-weight: bold;
+}
+.currentopening_left-card {
+    width: 100%;
+    height: 330px;
+    background-color: #0B1024;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.careers-lab-left-col-image img {
+    height: 900px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+/* start section form right */
+.career-lab-button{
+    width: 90%;
+    margin-top: 124px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 30px;
+    background-color: #ED1B24;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+ }
+ #currentopening-joinform .form{
+    padding-left: 30px;
+    padding-top: 20px;
+    width: 90%;
+ }
+ /* End */
+
+
+ /* Start newsletter card section */
+
+#smashlab-newsletter-card {
+    background-image: url("./Images/currentopening_Newsletter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    background-position: relative;
+    margin-top: 150px;
+}
+
+/* Start Subscribe Card */
+.home-newsletter-horizcard{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    border: none;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.home-newsletter-horizcard:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.home-newsletter-horizcard-p1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #ED1B24;
+    text-align: center;
+    padding-top: 10px;
+}
+.home-newsletter-horizcard-p2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #0B1024;
+    text-align: center;
+}
+.home-newsletter-horizcard-input button{
+    color: white;
+    background-color:#FF0303;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    background: #FF0303;
+    border-radius: 10px;
+}
+.home-newsletter-horizcard-input input{
+    background: #F5F5F5;
+    font-size: 32px;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    
+}
+.home-newsletter-horizcard-p3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #A4A4A4;  
+    text-align: center;      
+}
+/* End Subscribe Card */
+.smashlab-subscribe_card{
+    width: 100%;
+    height: 100px;
+}
+.smashlab-subscribe_card h2{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 30px;
+    /* identical to box height, or 75% */
+
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+}
+/* End */
+
+.smashlab-subcribe-card{
+    margin-top: -200px;
+}
+/* Start footer bottom */
+
+#footer-bottom{
+    height: 130px;
+    width: 100%;
+    background-image: url('../../assets/Home/Images/homefooter.png');
+    background-color: black;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-bottom-right{
+    margin-left: auto; 
+    padding-right: 10px;
+}
+
+/* End footer bottom */
+/* tag card */
+.post-tag-card{
+    background-color: #D3D3D3;
+    margin: 5px;
+}
+
+/* End of newsletter card section */
+
+.footer-bottom-right a{
+    color: white;
+    text-decoration: none;
+}
+.footer-bottom-right a:hover{
+    color: #ED1B24;
+}

@@ -1,0 +1,268 @@
+@font-face{
+    src: url('../../../font/league-spartan/static/LeagueSpartan-Regular.ttf');
+    font-family: Lspartan;
+}
+@font-face{
+    src: url('../../../font/FontsFree-Net-n1.ttf');
+    font-family: Nexa-Bold;
+}
+h3{
+    font-weight: 400px;
+}
+/* start header */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lspartan;
+}
+/* #header{
+    background-image: url('/assets/Careers/Image/mainsect.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 585px;
+} */
+
+#careers-main-section{
+    width: 100%;
+    height: 587px;
+    background-image: url('../image/BlogBanner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.navbar-expand-lg{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+    font-family: Lspartan;
+}
+.navbar-brand{
+    justify-content: start;
+    text-align: start;
+    float: inline-start;
+}
+.navbar-expand-lg a{
+    color: white;
+}
+.navbar-expand-lg img{
+    width: 287px;
+    height: 63px;
+}
+.navbar-collapse{
+    padding: 0px;
+    margin: 0px;
+}
+.btn2{
+    padding: 10px 15px 10px 15px;
+    background-color: #FF0303;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Lspartan';
+    font-style: normal;
+    font-size: 21px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.header-nav-item a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+}
+.nav-item a:hover{
+    color: #ED1B24;
+}
+
+.navbar-nav-ul{
+    text-align: center;
+    justify-content: center;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    background-color: rgba(0,0,0,0.3);
+}
+/* End career header */
+
+/* start post section */
+
+.post-recent-rightsideimg1 img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+.post-recent-rightsideim2 img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+.post-recent-rightsideimg3 img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+.post-recent-rightsideimg4 img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+
+.form-main-sect{
+    background-color: #ED1B24;
+}
+.card{
+    padding: 10px;
+    background-color: #F5F5F7;
+    border-radius: 1px;
+}
+.form-group1{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.form-group1 input{
+    width: 70%;
+    text-align: left;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+
+}
+.form-group1 span{
+    border: none;
+    background-color: black;
+    color: white;
+}
+.main-card-date{
+    color: #ED1B24;
+}
+.categories-list-style li{
+    font-size: 20px;
+    color: #ED1B24;
+    padding: 0px;
+    margin: 0px;    
+}
+.categories-list-style p{
+    color: #0B1024;
+    padding: 0px;
+    margin: 0px;
+}
+.categories-style{
+    flex-wrap: wrap;
+}
+/* End */
+
+/* Start Subscribe Card */
+.home-newsletter-horizcard{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    border: none;
+    margin-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.home-newsletter-horizcard:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.home-newsletter-horizcard-p1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #ED1B24;
+    text-align: center;
+    padding-top: 10px;
+}
+.home-newsletter-horizcard-p2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #0B1024;
+    text-align: center;
+}
+.home-newsletter-horizcard-input button{
+    color: white;
+    background-color:#FF0303;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    background: #FF0303;
+    border-radius: 10px;
+}
+.home-newsletter-horizcard-input input{
+    background: #F5F5F5;
+    font-size: 32px;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    
+}
+.home-newsletter-horizcard-p3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #A4A4A4;  
+    text-align: center;      
+}
+.subscribe-card-button{
+    background-color: #ED1B24;
+}
+/* End Subscribe Card */
+
+/* Start footer bottom */
+
+#footer-bottom{
+    height: 130px;
+    width: 100%;
+    background-image: url('../../Careers/Image/homefooter.png');
+    background-color: black;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer-bottom-right{
+    margin-left: auto; 
+    padding-right: 10px;
+}
+
+/* End footer bottom */
+/* tag card */
+.post-tag-card{
+    background-color: #D3D3D3;
+    margin: 5px;
+}
+
+
+.footer-bottom-right a{
+    color: white;
+    text-decoration: none;
+}
+.footer-bottom-right a:hover{
+    color: #ED1B24;
+}
